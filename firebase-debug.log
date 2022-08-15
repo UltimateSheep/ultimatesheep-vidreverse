@@ -1,0 +1,60 @@
+[debug] [2022-08-15T08:26:33.616Z] ----------------------------------------------------------------------
+[debug] [2022-08-15T08:26:33.619Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\theta\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-08-15T08:26:33.619Z] CLI Version:   11.6.0
+[debug] [2022-08-15T08:26:33.620Z] Platform:      win32
+[debug] [2022-08-15T08:26:33.620Z] Node Version:  v16.15.1
+[debug] [2022-08-15T08:26:33.620Z] Time:          Mon Aug 15 2022 15:26:33 GMT+0700 (Indochina Time)
+[debug] [2022-08-15T08:26:33.621Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-15T08:26:33.715Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-15T08:26:33.716Z] > authorizing via signed-in user (the.tankunth@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\theta\Documents\Programming\ultimatesheep-vidreverse
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-08-15T08:26:40.206Z] Using project from CLI flag: ultimatesheep-vidreverse
+[debug] [2022-08-15T08:26:40.212Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ultimatesheep-vidreverse [none]
+[debug] [2022-08-15T08:26:40.611Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ultimatesheep-vidreverse 200
+[debug] [2022-08-15T08:26:40.612Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ultimatesheep-vidreverse {"projectId":"ultimatesheep-vidreverse","projectNumber":"144828629410","displayName":"ultimatesheep-vidreverse","name":"projects/ultimatesheep-vidreverse","resources":{"hostingSite":"ultimatesheep-vidreverse"},"state":"ACTIVE","etag":"1_b04fd189-ffc0-4153-873d-627283ddd365"}
+[info] i  Using project ultimatesheep-vidreverse (ultimatesheep-vidreverse) 
+[info] 
+=== Functions Setup
+[info] 
+[info] A functions directory will be created in your project with sample code
+[info] pre-configured. Functions can be deployed with firebase deploy.
+[info] 
+[debug] [2022-08-15T08:26:40.630Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-15T08:26:40.630Z] > authorizing via signed-in user (the.tankunth@gmail.com)
+[debug] [2022-08-15T08:26:40.631Z] [iam] checking project ultimatesheep-vidreverse for permissions ["firebase.projects.get"]
+[debug] [2022-08-15T08:26:40.631Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/ultimatesheep-vidreverse:testIamPermissions [none]
+[debug] [2022-08-15T08:26:40.632Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/ultimatesheep-vidreverse:testIamPermissions x-goog-quota-user=projects/ultimatesheep-vidreverse
+[debug] [2022-08-15T08:26:40.632Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/ultimatesheep-vidreverse:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-08-15T08:26:41.956Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/ultimatesheep-vidreverse:testIamPermissions 200
+[debug] [2022-08-15T08:26:41.956Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/ultimatesheep-vidreverse:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-08-15T08:26:41.957Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/ultimatesheep-vidreverse/services/cloudfunctions.googleapis.com [none]
+[debug] [2022-08-15T08:26:41.960Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/ultimatesheep-vidreverse/services/runtimeconfig.googleapis.com [none]
+[debug] [2022-08-15T08:26:43.519Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/ultimatesheep-vidreverse/services/cloudfunctions.googleapis.com 200
+[debug] [2022-08-15T08:26:43.519Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/ultimatesheep-vidreverse/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2022-08-15T08:26:43.520Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/ultimatesheep-vidreverse/services/runtimeconfig.googleapis.com 200
+[debug] [2022-08-15T08:26:43.520Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/ultimatesheep-vidreverse/services/runtimeconfig.googleapis.com [omitted]
+[info] +  Wrote functions/package.json 
+[info] +  Wrote functions/index.js 
+[info] +  Wrote functions/.gitignore 
