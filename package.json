@@ -27,7 +27,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "ssr": "npm run build && node backend/index.js",
-    "deploy": "npm run build && firebase deploy"
+    "deploy": "npm run build && firebase deploy",
+    "git" : "git add . && git commit -m 'ahawdaw' && git push -u origin main"
   },
   "eslintConfig": {
     "extends": [
