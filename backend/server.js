@@ -2,7 +2,6 @@ import express from "express";
 import fs from "fs";
 import path from "path";
 import cors from "cors";
-import functions from "firebase-functions"
 
 import React from "react";
 import ReactDOMServer from "react-dom/server";
@@ -32,9 +31,7 @@ app.use("^/$", (req, res, next) => {
 
 app.use(express.static(path.resolve(__dirname, "..", "build")));
 
-// const PORT = 8000;
-// app.listen(PORT, () => {
-//   console.log("listening to PORT: " + PORT);
-// });
-
-exports.app = functions.https.onRequest(app)
+ const PORT = 8000;
+ app.listen(PORT, () => {
+   console.log("listening to PORT: " + PORT);
+ });
